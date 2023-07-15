@@ -28,6 +28,11 @@ sudo mv markpdf /usr/local/bin/markpdf
 ```
 Done! 
 
+## Building
+
+If the binaries linked above don't work, one can re-compile them manually with (the instructions in) `build.sh`.
+To avoid dependending on C-libraries it may be benefitial to add `CGO_ENABLED=0`, als pointed out [here](https://stackoverflow.com/a/65919767/10606962).
+
 ## How to use
 
 ### Image watermarking
